@@ -6,8 +6,8 @@
 static GLFWwindow *window;
 static GLuint shaderProgram;
 static GLuint vertexBuffer;
-static int width = 1200;
-static int height = 1200;
+static int width = 900;
+static int height = 900;
 
 static GLenum glBlendEquationOptions[] = {
         GL_FUNC_ADD, GL_FUNC_SUBTRACT, GL_FUNC_REVERSE_SUBTRACT

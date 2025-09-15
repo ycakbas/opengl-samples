@@ -31,3 +31,15 @@ target_link_libraries(glBlendEquationSeparate ${GLFW_LIBRARIES} ${GLESv2_LIBRARY
 
 add_executable(glGetError src/glGetError.c)
 target_link_libraries(glGetError ${GLFW_LIBRARIES} ${GLESv2_LIBRARY})
+
+add_executable(fragment_variables src/fragment_variables.c)
+target_link_libraries(fragment_variables ${GLFW_LIBRARIES} ${GLESv2_LIBRARY})
+
+add_executable(glsl_limits_test src/glsl_limits_test.c)
+target_link_libraries(glsl_limits_test ${GLFW_LIBRARIES} ${GLESv2_LIBRARY})
+
+add_executable(qualifiers src/qualifiers.c)
+target_link_libraries(qualifiers ${GLFW_LIBRARIES} ${GLESv2_LIBRARY})
+
+add_executable(vertex_variables src/vertex_variables.c)
+target_link_libraries(vertex_variables ${GLFW_LIBRARIES} ${GLESv2_LIBRARY})
